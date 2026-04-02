@@ -35,11 +35,6 @@ src/
     ├── FaqSection.vue
     └── FooterSection.vue
 public/
-└── videos/        ← сюда кладёшь свои mp4
-```
+└── videos/
 
-## Как добавить видео
 
-1. Положи файл в `public/videos/` , например `public/videos/project1.mp4`
-2. Открой `src/components/CarouselSection.vue`
-3. В массиве `slides` укажи путь : `video: '/videos/project1.mp4'`
